@@ -35,5 +35,5 @@ def norm(xx):
         n[i] = xx[i] * xx[i]
     return math.sqrt(sum(n))
 
-print 'Norm x = ', norm(x)
+print 'Norm x = ', norm(x), ''
 print 'Three ways to calculate norm? ', norm(x) == np.sqrt(np.sum(x**2)) == np.linalg.norm(x),
